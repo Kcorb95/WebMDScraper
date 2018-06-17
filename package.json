@@ -1,0 +1,45 @@
+{
+  "name": "WebMD-doctor-scraper",
+  "version": "0.0.1",
+  "description": "Node app that scrapes for a list of doctors on webMD by zipcode.",
+  "main": "server.js",
+  "author": "Kevin Corbett",
+  "dependencies": {
+    "express": "latest",
+    "request": "latest",
+    "request-promise": "latest",
+    "cheerio": "latest"
+  },
+  "devDependencies": {
+    "eslint": "^4.19.1",
+    "eslint-config-aqua": "^4.1.0"
+  },
+  "eslintConfig": {
+    "extends": "aqua",
+    "rules": {
+      "es6": "true",
+      "no-process-env": "off",
+      "quote-props": "off",
+      "no-use-before-define": "off",
+      "max-len": "off",
+      "eol-last": "off",
+      "no-console": "off",
+      "no-inline-comments": "off",
+      "capitalized-comments": "off",
+      "no-undef": "off",
+      "max-depth": "warn",
+      "curly": "off",
+      "nonblock-statement-body-position": "off",
+      "indent": [
+        "error",
+        4
+      ],
+      "prefer-destructuring": [
+        "warn"
+      ]
+    }
+  },
+  "engines": {
+    "node": ">=8.6.0"
+  }
+}
